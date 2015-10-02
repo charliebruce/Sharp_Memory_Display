@@ -23,8 +23,9 @@ All text above, and the splash screen must be included in any redistribution
 #define SCK 10
 #define MOSI 11
 #define SS 13
+#define EXTCOMIN 8
 
-Adafruit_SharpMem display(SCK, MOSI, SS);
+Adafruit_SharpMem display(SCK, MOSI, SS, EXTCOMIN);
 
 #define BLACK 0
 #define WHITE 1
